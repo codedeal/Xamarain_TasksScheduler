@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{F96D3143-550A-400F-8E31-3E5D0A0B6F0F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NotesApplication/ViewModel/NotesViewModel.cs">
+    <Files>
+      <File FileName="NotesApplication/ViewModel/NotesViewModel.cs" Line="14" Column="36" />
+      <File FileName="NotesApplication/Views/NotesListPage.xaml" Line="45" Column="1" />
+      <File FileName="NotesApplication/Model/NotesList.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NotesApplication" expanded="True">
+            <Node name="NotesApplication" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="ViewModel" expanded="True">
+                <Node name="NotesViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="CreateNotesPage.xaml" expanded="True" />
+                <Node name="NotesListPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="NotesApplication.iOS" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.NotesApplication.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.74F89FD9-B22F-4C47-8D16-3D25E8F0279A" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.NotesApplication.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" FirstBuild="True" PreferredExecutionTarget="Android.my_device" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.NotesApplication FirstBuild="True" />
+</Properties>

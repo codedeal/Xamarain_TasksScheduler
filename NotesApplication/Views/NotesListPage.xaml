@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="NotesApplication.Views.NotesListPage"
+    Title="Notes">
+    <ContentPage.ToolbarItems>
+    
+    <ToolbarItem  Order="Primary" Icon="{Binding Icon}" Priority="0" Command="{Binding CreateNotesCommand}" />
+      
+   </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView
+                ItemsSource="{Binding NotesLists}"
+                HasUnevenRows="true"
+                Margin="5"
+                SeparatorVisibility="None"
+                SelectedItem="{Binding NotesSelected}"
+                >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Spacing="5" Padding="10">
+                                <StackLayout Spacing="10">
+                                <Label Text="{Binding Heading}" BackgroundColor="#e8ddaf" TextDecorations="Underline" FontSize="Medium"/>
+                                    </StackLayout>
+                                <StackLayout BackgroundColor="#cbccc6" Orientation="Horizontal" Spacing="10">
+                                    <StackLayout>
+                                    <Label Text="{Binding Task,StringFormat='{0:F2}'}" FontSize="Small" HorizontalOptions="Start"/>
+                                        </StackLayout>
+                                    <StackLayout HorizontalOptions="EndAndExpand">
+                                    <Label Text="{Binding Created, StringFormat='{0:D}'}" FontSize="Micro" />
+                                        </StackLayout>
+                                   
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
